@@ -1,0 +1,65 @@
+body {
+    background: pink;
+}
+
+h1 {
+    color: beige;
+    text-align: center;
+    font-size: 10vh;
+}
+
+.parentcircle {
+    margin: 10% 10% 10% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid black; */
+    vertical-align: middle;
+}
+
+#circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: rgb(167, 167, 245);
+    line-height: 250px;
+    font-size: 30px;
+    border: 10px dotted rgb(191, 51, 191);
+    animation: mymove 10s infinite;
+}
+
+
+
+@keyframes mymove {
+    0% {
+        width: 250px;
+        height: 250px;
+        font-size: 30px;
+        content: "Inhale";
+        opacity: 1;
+        border: 7px solid rgb(191, 51, 191);
+    }
+
+    50% {
+        width: 350px;
+        height: 350px;
+        font-size: 60px;
+        text-align: center;
+        line-height: 350px;
+        content: "Exhale";
+        opacity: 0.5;
+        border: 3px solid rgb(229, 108, 229);
+
+    }
+
+    100% {
+        width: 250px;
+        height: 250px;
+        font-size: 30px;
+        content: "Inhale";
+        opacity: 1;
+        color: black;
+        border: 7px solid rgb(191, 51, 191);
+    }
+}

@@ -1,0 +1,65 @@
+body {
+    background-image: url("musicbg.jpg");
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.music-player {
+    margin-top: 10%;
+    border: 2px solid rgb(220, 195, 195);
+    box-shadow: 8px 8px 30px rgb(240, 230, 237);
+    height: 500px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.trackimg {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+audio {
+    width: 100%;
+}
+
+.controls {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.controls button {
+    background-color: fff;
+    border-radius: 10px;
+    width: 40px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.controls button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+#stop {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+#front,
+#back {
+    width: 50px;
+    text-align: center;
+}

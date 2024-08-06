@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    /* padding: 15%; */
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#logo {
+    width: 150px;
+    height: 100px;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    float: left;
+    text-decoration: none;
+
+
+
+}
+
+
+li {
+    margin: 0.5rem;
+    /* border: 2px solid cornflowerblue; */
+    padding: 0.5rem;
+    font-size: larger;
+    float: left;
+
+
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: cornflowerblue;
+}
+
+li:hover {
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 10%;
+}
+
+#helpline {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    padding-right: 2%;
+    font-size: large;
+
+}
+
+#content {
+    /* background-color: cornflowerblue; */
+    width: 100%;
+    padding: 5px;
+    font-size: large;
+    padding: 2%;
+}
+
+#slideimg {
+    /* border: 2px solid black; */
+    margin: 3%;
+    text-align: center;
+    padding: 3%;
+    /* align-items: center; */
+    color: rgb(101, 98, 98);
+    font-size: larger;
+    font-family: cursive;
+}
+
+img {
+    border: 5px solid black;
+    border-radius: 5%;
+    width: 500px;
+    height: 300px;
+}
+
+#imgbutton {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.btn {
+    margin: 20px;
+    font-size: 40px;
+    border: none;
+    background-color: pink;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+h4 {
+    color: rgb(32, 0, 128)
+}
+
+.foot {
+    background-color: blueviolet;
+    width: 100%;
+    padding: 30px;
+}
+
+.foot a {
+    color: white;
+}
